@@ -1,0 +1,62 @@
+# Python and development environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local credentials and user settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.hos-scrcpy/
+.idea/
+.vscode/
+.kiro/
+
+# Runtime data, local investigations and validation artifacts
+logs/
+screenshots/
+validation/
+.stability-backups/
+.layout-backups/
+.originals/
+*.log
+*.db
+*.db-*
+*.sqlite*
+*.dmp
+layout-preview*.png
+*-validation.json
+deployment_manifest.json
+HARMONY_MIRROR_NOTES.txt
+STABILITY_NOTES.txt
+gui_app_debug.py
+
+# External SDKs and downloaded/native/build binaries
+platform-tools/
+toolchains/
+build/
+dist/
+*.exe
+*.dll
+*.apk
+*.jar
+*.so
+*.dylib
+*.download
+hos_scrcpy/bridge/scrcpy_server/
+
+# OS files
+.DS_Store
+Thumbs.db

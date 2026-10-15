@@ -1,0 +1,16 @@
+Open-AutoGLM-Harmony 使用说明
+
+完整安装、设备连接、模型配置与兼容说明请阅读项目根目录 README.md。
+
+1. 激活 Python 环境，执行 python -m pip install -r requirements.txt。
+2. 将与设备匹配的 HDC 或 ADB 加入 PATH，接受手机上的调试授权。
+3. 鸿蒙实时投屏资源：python scripts/fetch_harmony_assets.py。
+4. 启动：python gui_app.py。
+5. 选择模式与设备，填写服务商提供的 Base URL、Model 和 API Key。
+6. 输入任务并开始执行，右侧自动显示画面。
+
+只有一个已连接设备时自动选择；多个设备时需明确选择。
+任务期间保留投屏并暂停手动控制，结束后恢复。
+原生投屏受系统和 uitest 版本影响，不兼容时尝试截图预览。
+模型服务的权限、费用和模型可用性以服务商实际提供的信息为准。
+本仓库不包含 API Key、设备 SDK、手机 APK 或预编译的 GUI。
